@@ -94,4 +94,11 @@ nav{
    padding: 20px;
    width: 100%;
   }
+
+  h1{
+    font-size: 1.2em;
+  }
+  #rgbDisplay{
+    font-size: 1.7em;
+  }
 }

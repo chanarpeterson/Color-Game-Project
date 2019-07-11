@@ -100,7 +100,7 @@ colorButton6.addEventListener("click", correctGuess);
 
 
 //EASY MODE
-var rowBottom = document.getElementById("row-bottom");
+var rowBottom = document.querySelector(".row-bottom");
 
 modeEasy.addEventListener("click", function(){
       rowBottom.style.display = "none";
@@ -132,6 +132,6 @@ modeEasy.addEventListener("click", function(){
 
   //HARD MODE
   modeHard.addEventListener("click", function(){
-        rowBottom.style.display = "block";
-        fillBoard();
-      });
+  rowBottom.style.display = "";
+  fillBoard();
+  });
